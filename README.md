@@ -28,6 +28,8 @@ plover-dotterel/        the Plover plugin (version 1.5.0)
     data/               word frequency, hyphenation, meanings, UK/US list
   dark-theme/           the dark theme plugin
   tests/
+install.sh              Plover and Dotterel in one go (below)
+plover.sh, plover.cfg   the plover command and the first settings
 docs/
   commands-cheat-sheet.md  every command stroke: keys, movement, modifiers, punctuation, capitals
   rp-rules.md           how Dotterel differs from Lapwing
@@ -36,14 +38,36 @@ docs/
 
 ## Install
 
-In Plover's own Python (Plover > Plugins Manager can't install from a folder):
+Plover and Dotterel in one go (Linux; nothing needs root):
+
+```
+git clone https://github.com/AliceInUndernix/dotterel
+cd dotterel
+./install.sh
+```
+
+It puts the newest Plover release (its AppImage, unpacked) in
+`~/.local/share/plover-dotterel` with first settings for a Gemini PR
+keyboard on `/dev/ttyACM0` (`plover.cfg`), installs Dotterel and its
+dark theme from this repo into Plover's own plugins, and makes the
+`plover` command in `~/.local/bin`. Plover runs in portable mode there,
+so its settings, plugins and logs stay in that directory. `git pull`
+and `./install.sh` again update both; `DOTTEREL_CLEAN=yes ./install.sh`
+reinstalls Dotterel from scratch. `PLOVER_DIR=...` and `BIN_DIR=...`
+choose other places. To read the keyboard you must be in the serial
+port's group (`dialout`, `uucp` on Arch): as root,
+`usermod -aG dialout user`, then log in again.
+
+With a Plover you already have, install the plugin in Plover's own
+Python instead (Plover > Plugins Manager can't install from a
+directory):
 
 ```
 plover -s plover_plugins install ./plover-dotterel
 plover -s plover_plugins install ./plover-dotterel/dark-theme   # optional
 ```
 
-Restart Plover, then in Configure pick **System: Dotterel** and **Machine: Gemini PR** (your keyboard's serial port). The plugin also installs `plover-auto-reconnect-machine`; tick it once in Configure > Plugins so Plover reconnects if the keyboard drops.
+Restart Plover, then in Configure pick **System: Dotterel** and **Machine: Gemini PR** (your keyboard's serial port). The plugin also installs `plover-auto-reconnect-machine`; tick it once in Configure > Plugins so Plover reconnects if the keyboard drops (`install.sh`'s settings already do).
 
 ## Keys
 
