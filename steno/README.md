@@ -9,12 +9,15 @@ edit the JSON and run `steno/make.sh` again.
 ```
 dictionaries/
   dotterel-*.dict           TEXT <tab> OUTLINE [OUTLINE...]
-  dotterel-movement.mode    option / entry / dict / exit lines
-  dotterel-modifiers.mods   modifier and keys lines (what
-                            dotterel-modifiers.py does in Plover)
 data/
   uk_to_us.txt              UK <tab> US, for #SU
 ```
+
+Three are not here, because steno has them built in, as C:
+`dotterel-movement.modal`, `dotterel-modifiers.py` and
+`dotterel-raw.json` are `dict dotterel-movement`, `dotterel-modifiers`
+and `dotterel-raw` in steno's settings. A change to one of them needs
+a change to steno (`steno/dotterel.c` in the dotfiles repo).
 
 One entry a line: the text first, a tab, then every outline that
 writes it, separated by spaces:

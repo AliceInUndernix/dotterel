@@ -11,6 +11,7 @@ command -v steno >/dev/null 2>&1 || {
 	echo "make.sh: steno not found (./install.sh steno in dotfiles)" >&2
 	exit 1
 }
+# dotterel-raw, -movement and -modifiers are built into steno: no file
 steno -C "$here/dictionaries" "$src"/dictionaries/*.json \
-	"$src"/dictionaries/*.modal "$src"/dictionaries/dotterel-modifiers.py
+	"$src"/dictionaries/*.modal
 steno -C "$here/data" "$src"/data/uk_to_us.json
