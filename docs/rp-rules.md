@@ -20,10 +20,14 @@ The full Lapwing theory that Dotterel builds on is in [lapwing-rules.md](lapwing
 
 ## Typographic punctuation
 
+**Rule: prose never gets a straight quote.** No outline that writes prose (words, proper nouns, affixes, numbers, punctuation, commands) writes a straight `'` or `"`. Only six strokes do, and all are for code: `#KW-GS` / `#KW*GS` (`"`), `#KR-RG` / `#KR*RG` (`'`) and the backticks `KH-FG` / `KH*FG`. `tests/test_typography.py` checks every dictionary for this.
+
 - Words are written with the curly apostrophe ’ (don’t, it’s, o’clock, O’Neal), and so are the affixes (`AES` ’s, `*PBT` n’t).
 - The quote outlines write curly quotes: `KW-GS` “, `KW*GS` ”, `KR-RG` ‘, `KR*RG` ’, and so do the combined ones (`KWR-GS` , “). The straight `"` and `'` for code are `#` + the same outline (`#KW-GS`, `#KR*RG`).
 - The ellipsis is … (`SKW-BGS`, `SW-BS`); the em dash — (`PH-RB`) and en dash – (`TPH-RB`) attach on both sides.
 - The Builder, Quick add, Tips and the typing test treat ' and ’ (and " and “ ”) as the same, so a word typed with a straight apostrophe is found and saved with ’.
+- A translation you type or edit (Builder, Quick add, or the outline table) is saved typographic: every `'` becomes ’ (don’t, ’tis, dogs’, ’90s, `{^’s}`, `{~|’^}em`), and `"` becomes “ at the start or after a space or opening bracket, ” anywhere else. Left straight: a translation with no letter or digit (a bare symbol, as the code strokes are), `{#key}` commands, fingerspelling `{&…}` and Plover metas (`=…`).
+- An apostrophe at the start of a word is ’, not ‘: ’em, ’tis, ’twas, ’bout, ’90s.
 
 ## Kept as in Lapwing
 

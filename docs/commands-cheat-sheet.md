@@ -137,7 +137,7 @@ Symbols with no stroke of their own (`$ + = * |` and so on) can be typed as Shif
 
 "Attach" means no space on that side. Marks that end a sentence capitalise the next word.
 
-Dotterel writes **typographic punctuation**: curly quotes “ ” ‘ ’, the apostrophe ’ in every word (don’t, it’s, o’clock, O’Neal), the ellipsis …, and dashes with no spaces (word—word, 1850–1899). The straight `'` and `"` that code and the shell need have their own strokes: `#` + the quote stroke.
+Dotterel writes **typographic punctuation**: curly quotes “ ” ‘ ’, the apostrophe ’ in every word (don’t, it’s, o’clock, O’Neal), the ellipsis …, and dashes with no spaces (word—word, 1850–1899). No stroke writes a straight `'` or `"` in prose: the straight ones that code and the shell need have their own strokes, `#` + the quote stroke (and the backtick, always straight). A straight quote you type into the Builder, Quick add or the outline table is saved typographic.
 
 ### Sentence marks
 

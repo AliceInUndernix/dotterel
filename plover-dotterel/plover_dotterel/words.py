@@ -8,6 +8,7 @@
 """
 
 import gzip
+import re
 import os
 
 DATA = os.path.join(os.path.dirname(__file__), "data")
@@ -25,13 +26,62 @@ def plain(text):
     return (text or "").translate(_PLAIN).replace("…", "...")
 
 
-def curly(word):
-    """don't -> don’t: a word as the Dotterel dictionaries write it.
+_BRACES = re.compile(r"(\{[^{}]*\})")
+# Braces whose text Plover writes out: {^’s}, {~|’^}em, {^n’t} ...
+# ({#Key}, {PLOVER:...}, {:retro...}, {*...}, {&c} and {MODE:...} are
+# commands or fingerspelling and are left alone.)
+_TEXT_BRACE = re.compile(r"\{(~\|)?\^?([^#:&*{}=<>|]*?)\^?\}")
+_OPENS = " \t\n([{<‘“—–/-"
 
-    Only plain words: a translation with {commands} is left as it is."""
-    if not word or "{" in word or "=" == word[:1]:
+
+def _curly_text(text, before):
+    """Straight quotes in a piece of text -> typographic ones.
+
+    ' is always the apostrophe ’ (don’t, ’tis, dogs’, ’90s); " opens (“)
+    after nothing, a space or an opening bracket, and closes (”) after
+    anything else. `before` is the character written just before it."""
+    out = []
+    for c in text:
+        if c == "'":
+            c = "’"
+        elif c == '"':
+            c = "“" if not before or before in _OPENS else "”"
+        out.append(c)
+        before = c
+    return "".join(out)
+
+
+def curly(word):
+    """don't -> don’t, "hi" -> “hi”: a translation as Dotterel writes it.
+
+    Prose never gets a straight ' or ": every one in a translation that
+    has a letter or a digit becomes the typographic one, also in affixes
+    ({^'s} -> {^’s}, {~|'^}em -> {~|’^}em). Left alone: a translation
+    with no letter or digit (a bare symbol, like #KR*RG ' for code),
+    a {command} or fingerspelling ({#apostrophe}, {&'}), and a Plover
+    meta (=...)."""
+    if not word or "=" == word[:1] or ("'" not in word and '"' not in word):
         return word
-    return word.replace("'", "’")
+    if not any(c.isalnum() for c in _BRACES.sub("", word)) and not any(
+        m.group(2) and any(c.isalnum() for c in m.group(2))
+        for m in _TEXT_BRACE.finditer(word)
+    ):
+        return word
+    out = []
+    before = ""
+    for piece in _BRACES.split(word):
+        if piece[:1] != "{":
+            piece = _curly_text(piece, before)
+            before = piece[-1:] or before
+        else:
+            m = _TEXT_BRACE.fullmatch(piece)
+            if m and m.group(2):
+                a, b = m.span(2)
+                text = _curly_text(m.group(2), before)
+                piece = piece[:a] + text + piece[b:]
+                before = text[-1:]
+        out.append(piece)
+    return "".join(out)
 
 
 def _lines(name):

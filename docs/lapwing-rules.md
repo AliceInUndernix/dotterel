@@ -637,6 +637,8 @@ Number key (top S) + a **right-hand number pad**, one digit per stroke (from `la
 
 **Rule of thumb:** a closing mark is its opening outline + `*`.
 
+In Dotterel the quote outlines write curly quotes (“ ” ‘ ’) and words write the apostrophe ’; the straight `"` and `'` for code are `#` + the same outline (`#KW-GS`, `#KR*RG`). See [rp-rules.md](rp-rules.md#typographic-punctuation).
+
 ## 21. Formatting commands
 
 | Command | Outline |
