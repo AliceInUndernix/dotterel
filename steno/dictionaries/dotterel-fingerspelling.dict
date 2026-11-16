@@ -1,0 +1,185 @@
+{>}{&e}	*E SK*
+{^ ^}{>}{&e}	*EB
+{&E.}	*EFPLT
+{&Ε}	*ELGTS
+{&E}	*EP SK*P
+{>}{&i}	*EU SKW*
+{^ ^}{>}{&i}	*EUB
+{&I.}	*EUFPLT
+{&Ι}	*EULGTS
+{&I}	*EUP SKW*P
+{>}{&u}	*U WR*
+{^ ^}{>}{&u}	*UB
+{&U.}	*UFPLT
+{&Υ}	*ULGTS
+{&U}	*UP WR*P
+{>}{&a}	A*
+{^ ^}{>}{&a}	A*B
+{&A.}	A*FPLT
+{&Α}	A*LGTS
+{&A}	A*P
+{>}{&a.}	AFPLT
+{&α}	ALGTS
+{&Η}	AO*ELGTS
+{&η}	AOELGTS TELGTS
+{>}{&e.}	EFPLT
+{&ε}	ELGTS
+{>}{&i.}	EUFPLT
+{&ι}	EULGTS
+{>}{&h}	H*
+{^ ^}{>}{&h}	H*B
+{&H.}	H*FPLT
+{&H}	H*P
+{>}{&h.}	H-FPLT
+{>}{&l}	HR*
+{^ ^}{>}{&l}	HR*B
+{&L.}	HR*FPLT
+{&Λ}	HR*LGTS
+{&L}	HR*P
+{>}{&l.}	HR-FPLT
+{&λ}	HR-LGTS
+{>}{&k}	K*
+{^ ^}{>}{&k}	K*B
+{&K.}	K*FPLT
+{&Κ}	K*LGTS
+{&K}	K*P
+{>}{&k.}	K-FPLT
+{&κ}	K-LGTS
+{&ch}	KH*
+{&Χ}	KH*LGTS
+{&Ch}	KH*P
+{&χ}	KH-LGTS
+{>}{&x}	KP*
+{^ ^}{>}{&x}	KP*B
+{&Ξ}	KP*EULGTS KP*LGTS
+{&X.}	KP*FPLT
+{&X}	KP*P
+{>}{&x.}	KP-FPLT
+{&ξ}	KP-LGTS KPEULGTS
+{>}{&c}	KR*
+{^ ^}{>}{&c}	KR*B
+{&C.}	KR*FPLT
+{&C}	KR*P
+{>}{&c.}	KR-FPLT
+{>}{&q}	KW*
+{^ ^}{>}{&q}	KW*B
+{&Q.}	KW*FPLT
+{&Q}	KW*P
+{>}{&q.}	KW-FPLT
+{>}{&y}	KWH*
+{^ ^}{>}{&y}	KWH*B
+{&Y}	KWH*P
+{>}{&y.}	KWH-FPLT
+{>}{&o}	O*
+{^ ^}{>}{&o}	O*B
+{&O.}	O*FPLT
+{&Ο}	O*LGTS
+{&O}	O*P
+{>}{&o.}	OFPLT
+{&ο}	OLGTS
+{>}{&p}	P*
+{^ ^}{>}{&p}	P*B
+{&P.}	P*FPLT
+{&Π}	P*LGTS
+{&P}	P*P
+{>}{&p.}	P-FPLT
+{&π}	P-LGTS
+{>}{&m}	PH*
+{^ ^}{>}{&m}	PH*B
+{&M.}	PH*FPLT
+{&Μ}	PH*LGTS
+{&M}	PH*P
+{>}{&m.}	PH-FPLT
+{&μ}	PH-LGTS
+{&Ω}	PHA*EULGTS
+{&ω}	PHAEULGTS
+{>}{&b}	PW*
+{^ ^}{>}{&b}	PW*B
+{&B.}	PW*FPLT
+{&Β}	PW*LGTS
+{&B}	PW*P
+{>}{&b.}	PW-FPLT
+{&β}	PW-LGTS
+{>}{&r}	R*
+{^ ^}{>}{&r}	R*B
+{&R.}	R*FPLT
+{&Ρ}	R*LGTS
+{&R}	R*P
+{>}{&r.}	R-FPLT
+{&ρ}	R-LGTS
+{>}{&s}	S*
+{^ ^}{>}{&s}	S*B
+{&S.}	S*FPLT
+{&Σ}	S*LGTS
+{&S}	S*P
+{>}{&s.}	S-FPLT
+{&σ}	S-LGTS
+{&sh}	SH*
+{&Sh}	SH*P
+{>}{&j}	SKWR*
+{^ ^}{>}{&j}	SKWR*B
+{&J.}	SKWR*FPLT
+{&J}	SKWR*P
+{>}{&j.}	SKWR-FPLT
+{&Ψ}	SP*LGTS
+{&ψ}	SP-LGTS
+{>}{&v}	SR*
+{^ ^}{>}{&v}	SR*B
+{&V.}	SR*FPLT
+{&V}	SR*P
+{>}{&v.}	SR-FPLT
+{>}{&z}	STK* STKPW*
+{^ ^}{>}{&z}	STKPW*B
+{&Z.}	STKPW*FPLT
+{&Ζ}	STKPW*LGTS
+{&Z}	STKPW*P
+{>}{&z.}	STKPW-FPLT
+{&ζ}	STKPW-LGTS
+{>}{&t}	T*
+{^ ^}{>}{&t}	T*B
+{&T.}	T*FPLT
+{&Τ}	T*LGTS
+{&T}	T*P
+{>}{&t.}	T-FPLT
+{&τ}	T-LGTS
+{>}{&th}	TH*
+{&ϴ}	TH*LGTS
+{&Th}	TH*P
+{&θ}	TH-LGTS
+{>}{&d}	TK*
+{^ ^}{>}{&d}	TK*B
+{&D.}	TK*FPLT
+{&Δ}	TK*LGTS
+{&D}	TK*P
+{>}{&d.}	TK-FPLT
+{&δ}	TK-LGTS
+{>}{&g}	TKPW*
+{^ ^}{>}{&g}	TKPW*B
+{&G.}	TKPW*FPLT
+{&Γ}	TKPW*LGTS
+{&G}	TKPW*P
+{>}{&g.}	TKPW-FPLT
+{&γ}	TKPW-LGTS
+{>}{&f}	TP*
+{^ ^}{>}{&f}	TP*B
+{&F.}	TP*FPLT
+{&Φ}	TP*LGTS
+{&F}	TP*P
+{>}{&f.}	TP-FPLT
+{&φ}	TP-LGTS
+{>}{&n}	TPH*
+{^ ^}{>}{&n}	TPH*B
+{&N.}	TPH*FPLT
+{&Ν}	TPH*LGTS
+{&N}	TPH*P
+{>}{&n.}	TPH-FPLT
+{&ν}	TPH-LGTS
+{&∇}	TPHALGTS
+{>}{&u.}	UFPLT
+{&υ}	ULGTS
+{>}{&w}	W*
+{^ ^}{>}{&w}	W*B
+{&W.}	W*FPLT
+{&W}	W*P
+{>}{&w.}	W-FPLT
+{>}{&wh}	WH*

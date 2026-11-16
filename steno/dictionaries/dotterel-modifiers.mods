@@ -1,0 +1,15 @@
+modifier	control	KHR
+modifier	shift	SH
+modifier	alt	THRA
+modifier	super	KPW
+modifier	control+shift	SKHR
+modifier	control+alt	TKHRA
+modifier	alt+shift	STHRA
+modifier	control+alt+shift	STKHRA
+modifier	control+super	KPWHR
+modifier	shift+super	SKPWHR
+keys	dotterel-punctuation.dict
+keys	dotterel-commands.dict
+keys	dotterel-fingerspelling.dict
+keys	dotterel-numbers.dict
+keys	dotterel-movement.mode

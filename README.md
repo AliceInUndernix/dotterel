@@ -28,6 +28,9 @@ plover-dotterel/        the Plover plugin (version 1.5.0)
     data/               word frequency, hyphenation, meanings, UK/US list
   dark-theme/           the dark theme plugin
   tests/
+steno/                  the same dictionaries for steno, the C engine in
+                        the dotfiles repo, in its plain format (made from
+                        the JSON by steno/make.sh; steno/README.md)
 install.sh              Plover and Dotterel in one go (below)
 plover.sh, plover.cfg   the plover command and the first settings
 docs/
