@@ -17,7 +17,7 @@ from plover import log, system
 from plover.steno import Stroke, normalize_steno, steno_to_sort_key
 from plover.translation import escape_translation, unescape_translation
 
-from .words import rank
+from .words import curly, rank
 from .shortcuts import Hints
 
 from ._qt import (
@@ -1031,7 +1031,9 @@ class OutlinePanel(QWidget):
             new_translation = e.translation
         else:
             new_key = old_key
-            new_translation = unescape_translation(text.strip())
+            # A straight quote typed in a translation is saved typographic:
+            # don't -> don’t, "hi" -> “hi” (words.curly).
+            new_translation = curly(unescape_translation(text.strip()))
         if not new_key or not new_translation or (
             new_key == old_key and new_translation == e.translation
         ):
