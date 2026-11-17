@@ -1,76 +1,69 @@
 # Dotterel
 
-Dotterel is a steno theory and dictionary for [Plover](https://www.openstenoproject.org/plover/), written for British English (RP pronunciation, British spelling with Oxford -ize). It is built on [Lapwing](https://lapwing.aerick.ca/) by Aerick: the same theory and syllable splits, with the vowels and briefs changed where RP sounds different from General American.
+Dotterel is a steno theory and dictionary written for British English
+(RP pronunciation, British spelling with Oxford -ize). It is built on
+[Lapwing](https://lapwing.aerick.ca/) by Aerick: the same theory and
+syllable splits, with the vowels and briefs changed where RP sounds
+different from General American.
 
-It works with any steno keyboard that speaks the Gemini PR protocol, such as a ZSA Moonlander running QMK's steno feature.
+Its home is steno, the C steno engine in the
+[dotfiles](https://github.com/AliceInUndernix/dotfiles) repo (`steno/`
+there): one static program that reads a Gemini PR keyboard (such as a
+ZSA Moonlander running QMK's steno feature) and types into X. The
+dictionaries here are in steno's plain text format. A Plover version
+is kept in `plover/` as an archive (below).
 
 ## What's in it
 
-- **113,816 word outlines** plus 602 prefixes and suffixes, 15,787 proper nouns, punctuation, numbers, commands, fingerspelling, movement and modifier keys.
-- **British by default, American on demand:** `#SU` switches the last word between UK and US spelling (colour / color).
-- **The Builder** (Ctrl+B in Plover, or in the toolbar), a window for growing your dictionary:
-  - suggests outlines for a word from Lapwing and the Dotterel rules, and turns green when what you write matches one;
-  - shows the UK pronunciation and audio from the Cambridge Dictionary, the meaning (WordNet), the Russian translation, and the sound written in Russian letters;
-  - lists every outline in one table to search, edit, move or delete;
-  - has a Practice tab, a typing test like Monkeytype on any text or EPUB book with tips for the shortest outline, and a Stats tab read from Plover's stroke log.
-- **Quick add** (`TK*UPT`): a small window to give the last word an outline without leaving what you're writing.
-- **Raw mode** (`RA*U`): see raw steno instead of words.
-- **A dark theme** for Plover's windows, as its own small plugin.
+- **113,816 word outlines** plus 602 prefixes and suffixes, 15,787
+  proper nouns, punctuation, numbers, commands and fingerspelling.
+  Movement, modifier keys and raw mode are built into steno.
+- **British by default, American on demand:** `#SU` switches the last
+  word between UK and US spelling (colour / color).
 
 ## Layout
 
 ```
-plover-dotterel/        the Plover plugin (version 1.5.0)
-  plover_dotterel/
-    system.py           keys, steno order, Gemini PR mapping, endings
-    dictionaries/       every dictionary Plover loads
-    builder.py ...      the Builder, Quick add and their helpers
-    data/               word frequency, hyphenation, meanings, UK/US list
-  dark-theme/           the dark theme plugin
-  tests/
-steno/                  the same dictionaries for steno, the C engine in
-                        the dotfiles repo, in its plain format (made from
-                        the JSON by steno/make.sh; steno/README.md)
-install.sh              Plover and Dotterel in one go (below)
-plover.sh, plover.cfg   the plover command and the first settings
+dictionaries/           the dictionaries steno reads
+  dotterel-*.dict       TEXT <tab> OUTLINE [OUTLINE...]
+data/
+  uk_to_us.txt          UK <tab> US, for #SU
 docs/
-  commands-cheat-sheet.md  every command stroke: keys, movement, modifiers, punctuation, capitals
+  commands-cheat-sheet.md  every command stroke
   rp-rules.md           how Dotterel differs from Lapwing
   lapwing-rules.md      the full Lapwing theory it builds on
+plover/                 the Plover plugin, its JSON dictionaries and
+                        installer: an archive (plover/README.md)
 ```
 
-## Install
+## Using it
 
-Plover and Dotterel in one go (Linux; nothing needs root):
+With the dotfiles, `./install.sh steno` builds steno, clones this repo
+into `~/.system/share/steno/dotterel` and updates it every run. On its
+own, point steno's settings at the `dictionaries` directory here.
 
-```
-git clone https://github.com/AliceInUndernix/dotterel
-cd dotterel
-./install.sh
-```
-
-It puts the newest Plover release (its AppImage, unpacked) in
-`~/.local/share/plover-dotterel` with first settings for a Gemini PR
-keyboard on `/dev/ttyACM0` (`plover.cfg`), installs Dotterel and its
-dark theme from this repo into Plover's own plugins, and makes the
-`plover` command in `~/.local/bin`. Plover runs in portable mode there,
-so its settings, plugins and logs stay in that directory. `git pull`
-and `./install.sh` again update both; `DOTTEREL_CLEAN=yes ./install.sh`
-reinstalls Dotterel from scratch. `PLOVER_DIR=...` and `BIN_DIR=...`
-choose other places. To read the keyboard you must be in the serial
-port's group (`dialout`, `uucp` on Arch): as root,
-`usermod -aG dialout user`, then log in again.
-
-With a Plover you already have, install the plugin in Plover's own
-Python instead (Plover > Plugins Manager can't install from a
-directory):
+To add or change an outline, edit the `.dict` file (one entry a line:
+the text first, a tab, then every outline that writes it, separated by
+spaces), or let steno do it: `steno -a OUTLINE TEXT` adds to your own
+user dictionary, which is first in the list.
 
 ```
-plover -s plover_plugins install ./plover-dotterel
-plover -s plover_plugins install ./plover-dotterel/dark-theme   # optional
+cat	KAT
+{^}.ca	#KRA #KRA* KRA*
 ```
 
-Restart Plover, then in Configure pick **System: Dotterel** and **Machine: Gemini PR** (your keyboard's serial port). The plugin also installs `plover-auto-reconnect-machine`; tick it once in Configure > Plugins so Plover reconnects if the keyboard drops (`install.sh`'s settings already do).
+In the text, `\t` is a tab, `\n` a newline, `\r` a carriage return and
+`\\` a backslash. The text uses Plover's dictionary language
+(`{^}`, `{-|}`, `{#Return}` ...), which steno follows exactly.
+
+## Plover (archive)
+
+`plover/` holds the Plover plugin (with the Builder, Quick add and a
+dark theme), the same dictionaries as JSON, and an installer for
+Plover and Dotterel in one go. It is kept for anyone who uses Plover,
+but not maintained: its JSON is a snapshot from 2026-11-17, and changes
+made since are only in `dictionaries/`. `steno -C DIR FILE...` turns
+Plover JSON dictionaries into steno's format, if you have your own.
 
 ## Keys
 
@@ -78,7 +71,10 @@ Steno order: `# S T K P W H R A O * E U F R P B L G T S D Z`.
 
 ## Credits
 
-- Lapwing theory and dictionaries: Aerick, MIT licence (`plover-dotterel/LICENSE-lapwing`).
+- Lapwing theory and dictionaries: Aerick, MIT licence
+  (`LICENSE-lapwing`).
 - Definitions: WordNet 3.0, Princeton University (`LICENSE-meanings`).
-- British hyphenation patterns: Dominik Wujastyk and Graham Toal (`LICENSE-hyphenation`).
-- UK/US spelling list: hyperreality/American-British-English-Translator, MIT (`LICENSE-uk-us-list`).
+- British hyphenation patterns: Dominik Wujastyk and Graham Toal
+  (`LICENSE-hyphenation`).
+- UK/US spelling list: hyperreality/American-British-English-Translator,
+  MIT (`LICENSE-uk-us-list`).

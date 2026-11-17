@@ -1,6 +1,6 @@
 # Dotterel command cheat sheet
 
-Every command stroke in Dotterel 1.5.0: keys, modifiers, movement, punctuation, capitals, spacing, numbers, fingerspelling and Plover controls. Taken from the dictionaries in `plover-dotterel/plover_dotterel/dictionaries/`. None of these strokes is used by a word.
+Every command stroke in Dotterel 1.5.0: keys, modifiers, movement, punctuation, capitals, spacing, numbers, fingerspelling and Plover controls. Taken from the dictionaries in `dictionaries/` (the archived Plover copies are in `plover/plover-dotterel/plover_dotterel/dictionaries/`). None of these strokes is used by a word.
 
 Strokes are written in steno order `# S T K P W H R A O * E U F R P B L G T S D Z`. A `-` means the keys after it are on the right hand (`-R` is right R, `R-` is left R).
 
