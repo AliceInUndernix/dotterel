@@ -39,4 +39,4 @@ The full Lapwing theory that Dotterel builds on is in [lapwing-rules.md](lapwing
 
 - Every outline is a valid stroke on the Dotterel keyboard.
 - No word outline takes a stroke used by punctuation, commands, fingerspelling, numbers, movement, raw mode or proper nouns.
-- Base dictionary: 113,816 outlines. Affixes: 602.
+- Base dictionary: 113,817 outlines. Affixes: 602.

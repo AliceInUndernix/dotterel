@@ -15,7 +15,7 @@ is kept in `plover/` as an archive (below).
 
 ## What's in it
 
-- **113,816 word outlines** plus 602 prefixes and suffixes, 15,787
+- **113,817 word outlines** plus 602 prefixes and suffixes, 15,787
   proper nouns, punctuation, numbers, commands and fingerspelling.
   Movement, modifier keys and raw mode are built into steno.
 - **British by default, American on demand:** `#SU` switches the last
