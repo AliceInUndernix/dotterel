@@ -1,0 +1,25 @@
+Copyright (c) 2026 AliceInUndernix.
+
+Dotterel's own work (its theory changes, its dictionaries and docs) is
+available under the terms of Croco's Individualistic Free Software
+License, version 0.251225, by Andrey V. Stolyarov: see the file LICENSE
+(its home is http://thalassa.croco.net/license.html). In short: free of
+charge for everyone, but free to study, change and pass on only for
+individuals acting on their own behalf. Changed versions must be
+published openly, under the same license, before they are given to
+anyone.
+
+Dotterel is built on works of others, which keep their own licenses
+(the LICENSE-* files):
+
+  Lapwing theory, dictionaries, word list   Aerick, MIT (LICENSE-lapwing)
+  data/meanings.txt     WordNet 3.0 (Princeton) and GCIDE,
+                        GPL-3.0-or-later (LICENSE-meanings)
+  data/hyph_en_GB.dic   BSD-style (LICENSE-hyphenation)
+  data/pron-uk.txt      Britfone, MIT (LICENSE-britfone)
+  data/pron-us.txt      CMUdict, BSD (LICENSE-cmudict)
+  data/frequency.txt    wordfreq, CC BY-SA 4.0 (LICENSE-frequency)
+  data/uk_to_us.txt     MIT (LICENSE-uk-us-list)
+
+Those files stay under their own licenses; CIFSL covers only what is
+Dotterel's own.

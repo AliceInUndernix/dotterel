@@ -1,0 +1,133 @@
+=repeat_last_translation	#
+{^~|'}	#KR*RG
+{~|'^}	#KR-RG
+{^~|"}	#KW*GS
+{~|"^}	#KW-GS
+{;}	#TPH*FPLT STPH*FPL STPH*FPLT
+{:}	#TPH-FPLT STPH-FPLT
+=undo	*
+{:stitch:E}	*ERBGS
+{:stitch:I}	*EURBGS
+{:stitch:U}	*URBGS
+{:stitch_last_word:1:.}	-FPLT
+{:stitch_last_word:2:.}	-FPLT/-FPLT
+{:stitch_last_word:3:.}	-FPLT/-FPLT/-FPLT
+{:stitch_last_word:4:.}	-FPLT/-FPLT/-FPLT/-FPLT
+{:stitch_last_word:1:-}	-RBGS
+{:stitch_last_word:2:-}	-RBGS/-RBGS
+{:stitch_last_word:3:-}	-RBGS/-RBGS/-RBGS
+{:stitch_last_word:4:-}	-RBGS/-RBGS/-RBGS/-RBGS
+{^}>	A*EPBG
+{:stitch:A}	A*RBGS
+{^}@{^}	A*T
+<{^}	AEPBG
+{:stitch:a}	ARBGS
+{:stitch:e}	ERBGS
+{:stitch:i}	EURBGS
+-	H*PB
+--	H*PBZ
+{:stitch:H}	H*RBGS
+{?}	H-F KW-PL
+{^}-{^}	H-PB
+-{^}	H-PBS
+{^}--{^}	H-PBSZ
+--{^}	H-PBZ
+{:stitch:h}	H-RBGS
+{^}#{^}	HA*ERB
+#{^}	HAERB
+{:stitch:L}	HR*RBGS
+{:stitch:l}	HR-RBGS
+{:stitch:K}	K*RBGS
+{^}:{^}	K-L KHR-PB
+{:stitch:k}	K-RBGS
+{^}^{^}	KA*RT
+{^}`	KH*FG
+`{^}	KH-FG
+{:stitch:X}	KP*RBGS
+{:stitch:x}	KP-RBGS
+{:stitch:C}	KR*RBGS
+{^~|’}	KR*RG
+{:stitch:c}	KR-RBGS
+{~|‘^}	KR-RG
+{} ‘ {^}{-|}	KW*BGS
+{^~|”}	KW*GS
+{:stitch:Q}	KW*RBGS
+{,}	KW-BG
+{} “ {^}{-|}	KW-BGS
+{~|“^}	KW-GS
+{:stitch:q}	KW-RBGS
+{:stitch:Y}	KWH*RBGS
+{:stitch:y}	KWH-RBGS
+{^}.”{-|}	KWR*BGS
+{,} {~|‘^}	KWR*GS
+{,} “ {^}{-|}	KWR-BGS
+{,} {~|“^}	KWR-GS
+@{^}	KWRA*T
+{^}Ω	O*EPL O*EPLS
+{:stitch:O}	O*RBGS
+{^}/{^}	OEU
+{:stitch:o}	ORBGS
+{^}%	P*ERS
+{:stitch:P}	P*RBGS
+{^}.{^}	P-P
+{:stitch:p}	P-RBGS
+—	PH*RB
+{:stitch:M}	PH*RBGS
+{^}—{^}	PH-RB
+{:stitch:m}	PH-RBGS
+{^~|)}	PR*EPB
+{~|(^}	PREPB
+{:stitch:B}	PW*RBGS
+{:stitch:b}	PW-RBGS
+{^]}	PWR*BGT
+{[^}	PWR-BGT
+{:stitch:R}	R*RBGS
+{:stitch:r}	R-RBGS
+{^}_{^}	RUPBD
+{:stitch:S}	S*RBGS
+{:stitch:s}	S-RBGS
+&	SKP*
+{^}…{-|}	SKW-BGS
+“{^}{-|}	SKWHA*FP
+{:stitch:J}	SKWR*RBGS
+{:stitch:j}	SKWR-RBGS
+{:stitch:V}	SR*RBGS
+{:stitch:v}	SR-RBGS
+{^s}{?}	STH-S STPH-S
+{:stitch:Z}	STKPW*RBGS
+{:stitch:z}	STKPW-RBGS
+{^)}	STPH*FPLTS
+{(^}	STPH-FPLTS
+{^…}	SW-BS
+{:stitch:T}	T*RBGS
+{:stitch:t}	T-RBGS
+{^}°{^}	TK*ERG
+{:stitch:D}	TK*RBGS
+{:stitch:d}	TK-RBGS
+{^}°	TKERG
+Δ{^}	TKO*EULT
+{:stitch:G}	TKPW*RBGS
+{:stitch:g}	TKPW-RBGS
+{:stitch:F}	TP*RBGS
+{!}	TP-BG
+{.}	TP-PL
+{:stitch:f}	TP-RBGS
+–	TPH*RB
+{:stitch:N}	TPH*RBGS
+{^}–{^}	TPH-RB
+{:stitch:n}	TPH-RBGS
+{^}\\}	TPR*BGT
+\\{{^}	TPR-BGT
+{^™}	TR*PL
+{^}‽{-|}	TRAEPBG TRAPBG
+{:stitch:u}	URBGS
+{:stitch:W}	W*RBGS
+{:stitch:w}	W-RBGS
+🤨	PHOEPBLG/H*U
+✨	PHOEPBLG/SPARBG/-L/-S
+¯\\_(ツ)_/¯	SHRUG/SHRUG
+{^}♭	TPHRA*T
+:(	#SAPBLG
+.	#PHE/SOE/PHERPB
+:)	#HAEP
+>:(	#AERPBG

@@ -1,0 +1,10 @@
+data/frequency.txt: the order of the words (most common first) comes
+from wordfreq by Robyn Speer, whose word lists are licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International license
+(CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+
+The words themselves are from Lapwing's word list (MIT, LICENSE-lapwing),
+in UK spelling. This file, as a work based on wordfreq's lists, is
+shared under CC BY-SA 4.0 too.
+
+wordfreq: https://github.com/rspeer/wordfreq

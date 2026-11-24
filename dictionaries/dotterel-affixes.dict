@@ -1,0 +1,418 @@
+{ex^}	*EBGS
+{^er}	*ER
+{^ering}	*ERG
+{inter^}	*EURPBT EUPB/TER
+{^’ve}	*F
+{^ch}	*FP
+{^sm}	*FPL
+{every^}	*FR
+{^in’}	*G
+{^’ll}	*L
+{^nd}	*PBD
+{^n’t}	*PBT
+{^rd}	*RD
+{^st}	*S
+{^th}	*T
+{under^}	*URPBD UPB/TKER
+{^able}	-BL KWRABL
+{^ability}	-BL/TEU -BLT
+{^ed}	-D
+{^ful}	-FL
+{^fully}	-FL/KWREU
+{^ing}	-G
+{^le}	-L
+{^led}	-LD
+{^ling}	-LG
+{^less}	-LS
+{^let}	-LT
+{^lessness}	-PBLS
+{^ness}	-PBS
+{^ment}	-PLT
+{^ments}	-PLTS
+{^tial}	-RBL
+{^s}	-S -Z
+{a^}	A
+{ante^}	A*EPBT
+{^s’}	A*ES
+{^ache}	A*EUBG KWRAEUBG
+{after^}	A*FR
+{alkyl^}	A*LG/-L
+{^als}	A*LS
+{^ar}	A*R
+{^ars}	A*RS
+{^atorium}	A/TOR/KWRUPL
+{axio^}	ABGS/KWRO ABGS/KWROE
+{aero^}	AER/KWRO AER/KWROE
+{^arity}	AERT KWRAER/TEU KWRAERT
+{^’s}	AES
+{^aceous}	AEU/-RBS AEU/SHUS AEURBS
+{e^}	AOE E
+{electro^}	AOE/HREBG/TRO AOE/HREBG/TROE E/HREBG/TRO E/HREBG/TROE HR*ERBGT
+{elipto^}	AOE/HREUP/TO AOE/HREUP/TOE E/HREUP/TO E/HREUP/TOE
+{eco^}	AOE/KOE
+{iso^}	AOEU/SOE O*EUS
+{uber^}	AOU/PWER
+{uni^}	AOU/TPHEU AOUPB
+{anti^}	APB/TEU
+{anthro^}	APB/THROE
+{ambi^}	APL/PWEU
+{astro^}	AS/TRO AS/TROE
+{auto^}	AU/TOE O*EUT
+{epi^}	E/PEU EP
+{exo^}	EBG/SO EBG/SOE
+{ecto^}	EBG/TO EBG/TOE
+{equi^}	EBG/WEU
+{extra^}	EBGS/TRA KPRA*
+{^ably}	EBL PWHREU
+{en^}	EPB
+{endo^}	EPB/TKO EPB/TKOE
+{ento^}	EPB/TO EPB/TOE
+{em^}	EPL
+{er^}	ER
+{^ility}	EULT KWREUL/TEU KWREULT
+{in^}	EUPB
+{infra^}	EUPB/TPRA
+{intra^}	EUPB/TRA SPWRA
+{intro^}	EUPB/TRO EUPB/TROE SPWRO* SPWRO*E
+{im^}	EUPL
+{ir^}	EUR
+{heli^}	H*EL HE/HREU
+{^ham}	HA*PL
+{haemo^}	HAE/PHOE
+{handi-^}	HAEPBD
+{^hood}	HAO*D
+{hydro^}	HAO*EURD HAOEU/TKROE HO*EURD
+{hyper^}	HAO*EURP HAOEU/PER
+{hemo^}	HAOE/PHOE
+{helio^}	HAOEL/KWROE
+{hypo^}	HAOEU/POE HOEUP
+{hydra^}	HAOEU/TKRA
+{hemi^}	HE/PHEU
+{hetero^}	HE/TER/KWRO HE/TER/KWROE HERT HET/RO HET/ROE
+{hexa^}	HEBG/SA
+{holo^}	HO/HRO HOE/HROE
+{homo^}	HO/PHO HOE/PHOE
+{homeo^}	HOE/PHAOE/KWRO HOE/PHAOE/KWROE HOEPL/KWRO HOEPL/KWROE
+{^land}	HRA*PBD
+{lacto^}	HRABG/TOE
+{^ulation}	HRAEUGS
+{^lant}	HRAPBT
+{^ular}	HRAR
+{^ly}	HREU
+{^licious}	HREU/-RBS HREU/SHUS HREURBS
+{kilo^}	K*EUL KEU/HRO KEU/HROE
+{^ically}	KAEL
+{^cation}	KAEUGS
+{^cate}	KAEUT
+{^cal}	KAL
+{^key}	KAO*E
+{^keep}	KAO*EP
+{^keeper}	KAO*EP/*ER KAO*ERP
+{^keeping}	KAO*EP/-G KAO*EPG
+{cario^}	KAR/KWRO
+{cardio^}	KARD/KWRO
+{con^}	KO*PB
+{counter^}	KO*URPBT
+{^cox}	KOBGS
+{co^}	KOE
+{contra^}	KOPB/TRA
+{contro^}	KOPB/TRO KOPB/TROE
+{xylo^}	KPAO*EUL KPAOEU/HRO KPAOEU/HROE
+{xeno^}	KPAOE/TPHO KPAOE/TPHOE KPE/TPHOE
+{centi^}	KR*EPBT KREPB/TEU SEPB/TEU
+{^cracy}	KRA/SEU KRAES
+{centro^}	KREPB/TROE SEPB/TROE
+{^ien}	KWR*EPB
+{^ence}	KWR*EPBS
+{^ient}	KWR*EPBT
+{^ivity}	KWR*EUFT KWREUF/TEU
+{^eus}	KWR*US
+{^a}	KWRA
+{^ian}	KWRA*PB
+{^iant}	KWRA*PBT
+{^atic}	KWRA/TEUBG KWRABGT
+{^iability}	KWRABLT
+{^ally}	KWRAEL KWRAL/KWREU
+{^ary}	KWRAER KWRAEUR/KWREU
+{^arian}	KWRAER/KWRAPB KWRAERPB KWRAEUR/KWREU/KWRAPB
+{^arium}	KWRAERPL
+{^aries}	KWRAERS KWRAEUR/KWREUS
+{^ation}	KWRAEUGS
+{^aire}	KWRAEUR
+{^iate}	KWRAEUT
+{^ative}	KWRAEUT/KWREUF KWRAT/KWREUF
+{^iastic}	KWRAFBGT
+{^al}	KWRAL
+{^alize}	KWRAL/KWRAOEUZ
+{^alism}	KWRAL/KWREUFPL
+{^alies}	KWRAL/KWREUS
+{^ality}	KWRAL/TEU KWRALT
+{^ie}	KWRAOE
+{^eer}	KWRAOER
+{^ese}	KWRAOES
+{^ized}	KWRAOEUDZ
+{^izing}	KWRAOEUGZ
+{^ile}	KWRAOEUL
+{^ine}	KWRAOEUPB
+{^izer}	KWRAOEURZ
+{^izes}	KWRAOEUSZ
+{^ite}	KWRAOEUT
+{^itis}	KWRAOEUTS KWREUT/KWREUS
+{^ize}	KWRAOEUZ
+{^izable}	KWRAOEUZ/-BL
+{^ule}	KWRAOUL
+{^an}	KWRAPB
+{^age}	KWRAPBLG
+{^ance}	KWRAPBS
+{^ant}	KWRAPBT
+{^ias}	KWRAS
+{^ate}	KWRAT
+{^atically}	KWRAT/KAEL
+{^atical}	KWRAT/KAL
+{^atize}	KWRAT/KWRAOEUZ TAO*EUZ
+{^e}	KWRE
+{^ex}	KWREBGS
+{^esque}	KWREFBG
+{^est}	KWREFT
+{^el}	KWREL
+{^en}	KWREPB
+{^ential}	KWREPB/-RBL KWREPB/SHAL KWREPBL
+{^ens}	KWREPBS
+{^ent}	KWREPBT
+{^ier}	KWRER
+{^es}	KWRES
+{^et}	KWRET
+{^y}	KWREU
+{^itious}	KWREU/-RBS KWREU/SHUS KWREURBS
+{^itiousness}	KWREU/-RBS/-PBS KWREU/SHUS/-PBS KWREURBS/-PBS
+{^ic}	KWREUBG
+{^ible}	KWREUBL
+{^ive}	KWREUF
+{^iveness}	KWREUF/-PBS KWREUFPBS
+{^ively}	KWREUF/HREU KWREUFL
+{^ism}	KWREUFPL
+{^ives}	KWREUFS
+{^ist}	KWREUFT
+{^ition}	KWREUGS
+{^in}	KWREUPB
+{^im}	KWREUPL
+{^ish}	KWREURB
+{^istic}	KWREUS/TEUBG ST-BG
+{^it}	KWREUT
+{^o}	KWRO
+{^ological}	KWRO*LG
+{^ion}	KWRO*PB
+{^ology}	KWRO/HRO/SKWREU KWROL/SKWREU KWROLG
+{^ory}	KWROER
+{^ories}	KWROERS
+{^oic}	KWROEUBG
+{^oid}	KWROEUD
+{^ol}	KWROL
+{^ologist}	KWROLGS
+{^iorly}	KWRORL
+{^iority}	KWRORT
+{^os}	KWROS
+{^down}	KWROUPB
+{^ous}	KWROUS
+{^out}	KWROUT
+{^ium}	KWRUPL
+{^ure}	KWRUR
+{^us}	KWRUS
+{over^}	O*EFR OE/SRER
+{^-owned}	O*EPBD
+{off^}	O*F
+{on^}	O*PB
+{^onic}	O*PB/KWREUBG
+{^or}	O*R
+{ortho^}	O*RT OR/THO OR/THOE
+{out^}	O*UT
+{oxy^}	OBGS/KWREU
+{over-the-^}	OE/SRER/-T OEFR/-T
+{omni^}	OPL/TPHEU
+{penta^}	P*EPBT PEPB/TA
+{^pad}	PA*D
+{para^}	PA*R PAEUR/KWRA
+{^pass}	PA*S
+{patho^}	PA/THO PA/THOE
+{paleo^}	PAEUL/KWRO PAEUL/KWROE
+{^pedia}	PAO*ED/KWRA PAOED/KWRA
+{pyro^}	PAOEU/ROE
+{panto^}	PAPB/TOE
+{perma^}	PER/PHA
+{pico^}	PEU/KOE
+{picto^}	PEUBG/TO PEUBG/TOE
+{mega^}	PH*EG PHE/TKPWA
+{^men}	PH*EPB
+{methyl^}	PH*ET/-L
+{mid^}	PH*EUD
+{milli^}	PH*EUL PHEU/HREU
+{mini^}	PH*EUPB PHEU/TPHEU
+{multi^}	PH*ULT PHUL/TEU
+{^made}	PHA*ED
+{^make}	PHA*EUBG
+{^man}	PHA*PB
+{macro^}	PHA/KROE PHABG/ROE
+{^mation}	PHAEUGS
+{mal^}	PHAL
+{micro^}	PHAO*EURBG PHAOEU/KROE PHAOEUBG/ROE
+{medio^}	PHAOED/KWRO PHAOED/KWROE
+{mesio^}	PHAOES/KWRO PHAOES/KWROE
+{muco^}	PHAOU/KO PHAOU/KOE
+{meso^}	PHE/SOE
+{meta^}	PHE/TA
+{megalo^}	PHE/TKPWA/HRO PHE/TKPWA/HROE
+{metro^}	PHE/TRO PHE/TROE
+{mis^}	PHEUS
+{^most}	PHO*EFT
+{mono^}	PHO*PB PHO/TPHO PHO/TPHOE PHOE/TPHOE
+{moto^}	PHOE/TOE
+{morpho^}	PHOR/TPO*E
+{poly^}	PO*L PO/HREU
+{pre^}	PR*E PRAO*E
+{pro^}	PRO* PRO*E
+{proto^}	PROE/TOE PROET
+{be^}	PW*E
+{^bend}	PW*EPBD
+{^berry}	PW*ER/KWREU
+{^burg}	PW*URG
+{^back}	PWA*BG
+{bacterio^}	PWABG/TAOER/KWRO PWABG/TAOER/KWROE
+{^book}	PWAO*BG
+{bio^}	PWAO*EU/KWRO PWAO*EU/KWROE PWAOEU/KWRO PWAOEU/KWROE PWO*E
+{bi^}	PWAOEU
+{retro^}	R*ERT RE/TRO RE/TROE
+{^ress}	R*ES
+{rea^}	RAE
+{^room}	RAO*PL
+{re^}	RAOE RE
+{^erance}	RAPBS
+{retino^}	RET/TPHO RET/TPHOE
+{^ry}	REU
+{radio^}	RO*EUD
+{robo^}	ROE/PWOE
+{roto^}	ROE/TOE
+{^rous}	RUS
+{^self}	S*EFL
+{sub^}	S*UB
+{^saur}	SA*UR
+{^saurus}	SA*URS
+{cyber^}	SAO*EURB
+{super^}	SAO*URP SAOU/PER
+{psycho^}	SAOEU/KO SAOEU/KOE
+{seismo^}	SAOEUS/PHO
+{supra^}	SAOU/PRA SAOUP/RA
+{pseudo^}	SAOU/TKOE
+{sarco^}	SAR/KO SAR/KOE SARBG
+{semi^}	SE/PHEU SPH*EU
+{self-^}	SEF
+{^selves}	SEFS
+{sero^}	SER/KWRO SER/KWROE
+{^cy}	SEU
+{^sifi}	SEU/TPEU
+{^ship}	SH*EUP
+{^ships}	SH*EUPS
+{^ishness}	SH-PBS
+{^shaw}	SHA*U
+{^shine}	SHAO*EUPB
+{geo^}	SKWRAOE/KWROE
+{^-all}	SKWRAUL
+{^i}	SKWREU
+{juxta^}	SKWRUBGS/TA
+{^um}	SKWRUPL
+{^son}	SO*PB
+{^some}	SO*PL
+{socio^}	SOE/SEU/KWRO SOE/SEU/KWROE SOES/KWRO SOES/KWROE
+{^spasm}	SPA*FPL
+{spectro^}	SPEBG/TRO SPEBG/TROE
+{^ville}	SR*EUL
+{veno^}	SRAOE/TPHOE
+{velo^}	SRE/HRO
+{^stasis}	STA*ES
+{^-stage}	STA*EUPBLG
+{^stand}	STA*PBD
+{^stein}	STAO*EPB
+{stylo^}	STAOEU/HROE STAOEUL/KWROE STAOEUL/SKWROE STO*EUL
+{stereo^}	STER/KWROE STO*EUR
+{^-Z}	STK-RBGZ
+{^ization}	STKPWAEUGS
+{^zoite}	STKPWOEUT
+{^ston}	STO*PB
+{sphingo^}	STP*EUPBG/KWRO
+{sphero^}	STPAO*ER/SKWRO
+{sur^}	SUR
+{tele^}	T*EL TE/HRE
+{tera^}	T*ER
+{^itarian}	TAERPB
+{^tization}	TAOEUZ/KWRAEUGS
+{^itude}	TAOUD
+{tetra^}	TE/TRA TRERT
+{^ity}	TEU
+{^ify}	TEU/TPEU TPAOEU
+{^tive}	TEUF
+{^tivity}	TEUFT
+{thyro^}	THAOEU/RO
+{therma^}	THER/PHA
+{thermo^}	THER/PHOE THO*EURPL
+{thrombo^}	THROPL/PWO THROPL/PWOE
+{de^}	TK*E TKAOE
+{^den}	TK*EPB
+{dys^}	TK*EUZ
+{^dation}	TKAEUGS
+{deca^}	TKAOE/KA TKE/KA
+{deci^}	TKAOE/SEU TKE/SEU
+{di^}	TKAOEU TKEU
+{dia^}	TKAOEU/KWRA TKEU/KWRA
+{derma^}	TKER/PHA
+{^dition}	TKEUGS
+{dis^}	TKEUS
+{^adocious}	TKOE/-RBS TKOE/SHUS TKOERBS
+{demi^}	TKPH*EU
+{demo^}	TKPHO*
+{giga^}	TKPW*EUG TKPWEU/TKPWA
+{^gasm}	TKPWAFPL
+{^graphy}	TKPWRA*F/KWREU TKPWRA/TP*EU TKPWRAEF TKPWRAF/KWREU
+{^grapher}	TKPWRAF/*ER TKPWRAFR
+{^drawn}	TKRA*UPB
+{^drome}	TKROEPL
+{^top}	TO*P
+{^town}	TO*UPB
+{topo^}	TO/PO
+{^topia}	TOEP/KWRA
+{^tory}	TOER TOR/KWREU
+{^torial}	TOERL
+{^ification}	TPAEUBGS TPEU/KAEUGS
+{^fiability}	TPAOEUBLT
+{femto^}	TPEPL/TO TPEPL/TOE
+{ferro^}	TPER/KWROE
+{physio^}	TPEUS/KWRO TPEUS/KWROE
+{^inative}	TPHA*EUFT
+{^ination}	TPHA*EUGS
+{non-^}	TPHA*UPB
+{nano^}	TPHA/TPHOE
+{pneumo^}	TPHAO*UPL TPHAOU/PHOE
+{neuro^}	TPHAO*UR TPHAOUR/KWRO TPHAOUR/KWROE
+{neo^}	TPHAOE/KWROE TPHO*EU
+{necro^}	TPHE/KRO TPHE/KROE TPHEBG/RO TPHEBG/ROE TPHERBG
+{non^}	TPHOPB
+{^flection}	TPHR*EBGS
+{fluoro^}	TPHRAOUR
+{phono^}	TPO*/TPHO TPO*E/TPHOE
+{^fold}	TPO*ELD
+{^ford}	TPO*RD
+{^form}	TPO*RPL
+{phospho^}	TPO*S/TPO*
+{for^}	TPOR
+{^-free}	TPRAO*E
+{^fruit}	TPRAO*UT
+{trans^}	TRA*PBS
+{tri^}	TRAOEU
+{ultra^}	UL/TRA URLT
+{un^}	UPB
+{^way}	WA*EU
+{^ware}	WA*EUR
+{^uation}	WAEUGS
+{^ual}	WAL
+{^wood}	WAO*D
+{^uance}	WAPBS
+{^work}	WO*RBG
+{^world}	WO*RLD
