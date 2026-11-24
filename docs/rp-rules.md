@@ -16,6 +16,7 @@ The full Lapwing theory that Dotterel builds on is in [lapwing-rules.md](lapwing
 | T2: RP -ary/-ory | Unstressed -ary/-ory/-ery is written consonant + `REU`; a stressed one keeps its vowel | secretary `SE/KRE/TREU`, history `HEUS/TREU`, necessary `TPHE/SE/SREU`; scary `SKAER` |
 | T4: RP pronunciation | Outlines follow the British pronunciation | was `WAUS`, what `WHAUT`, schedule `SHED/KWRAOUL`, lieutenant `HREF/TEPB/TPHAPBT`, aluminium `A/HRAOU/PHEUPB/KWRUPL`, clerk `KHRA*RBG` |
 | E1: modern spellings | A few etymological spellings are written the modern way | fetus, fetal, fetid, sulfur (sulfate, sulfide), molt |
+| F1: -ther fold | A one-syllable stem + -ther is one stroke: the stem's vowel with `*`, then `-RT`. Its family follows (`-RTS`, `-RTD`, `-RGT`, `-RLT`, compounds). Not when the stroke is taken | brother `PWRO*RT`, father `TPA*RT` (farther keeps `TPAR/THER`), mother `PHO*RT`, whether `WH*ERT`; brothers `PWRO*RTS`, brotherly `PWRO*RLT`, grandfather `TKPWRAPBD/TPA*RT`. Not ether (`*ERT` is earth) or other (`O*RT` is ortho^) |
 | B1, B2: briefs | All of Lapwing's briefs stay, plus 35 new ones for common words | on `-PB`, today `T-D`, century `S-FP`, review `R-F`, release `R-S`, camera `K-R`, primary `P-R`, daily `TK-L`, interview `SPWRAOU`, secretary `S-R` |
 
 ## Typographic punctuation
