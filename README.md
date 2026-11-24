@@ -93,6 +93,19 @@ turns their JSON into steno's format.
 
 Steno order: `# S T K P W H R A O * E U F R P B L G T S D Z`.
 
+## The other repositories
+
+Each can be used on its own; the dotfiles installer sets them all up
+(`./install.sh keyboard games`).
+
+- [dotfiles](https://github.com/AliceInUndernix/dotfiles):
+  the whole Linux desktop: configs, the installer, steno, the diary
+  and the other programs
+- [moonlander](https://github.com/AliceInUndernix/moonlander):
+  the QMK layout for the ZSA Moonlander
+- [kspkan](https://github.com/AliceInUndernix/kspkan):
+  a small mod manager for Kerbal Space Program
+
 ## Credits and licenses
 
 Each part taken from others keeps its own license:
