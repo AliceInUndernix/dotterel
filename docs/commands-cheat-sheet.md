@@ -107,9 +107,9 @@ Symbols with no stroke of their own (`$ + = * |` and so on) can be typed as Shif
 
 | Command | Stroke | Also |
 |---|---|---|
-| Capitalise next word | `KPA` | `SKWR-F` |
+| Capitalise next word | `KPA` | |
 | Capitalise next word, no space before it | `KPA*` | |
-| Capitalise last word (retro) | `KA*PD` | `KPA*D`, `SKWR-FD` |
+| Capitalise last word (retro) | `KPA*D` | |
 | ALL CAPS next word | `KPAO` | |
 | ALL CAPS next word, no space before it | `KPAO*` | |
 | ALL CAPS last word (retro) | `KPAO*D` | |
