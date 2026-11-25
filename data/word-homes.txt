@@ -56939,7 +56939,6 @@ zymose	base	-
 {^}’d	base	-
 {^}’re	base	-
 {^}…{-|}	punctuation	-
-{^}‽{-|}	punctuation	-
 {^}♭	base	-
 {^~|"}	punctuation	-
 {^~|'}	punctuation	-
