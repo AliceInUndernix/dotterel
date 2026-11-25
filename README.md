@@ -34,7 +34,9 @@ dictionaries/             the dictionaries steno reads, in this order:
                             yours yet
   dotterel-proper-nouns.dict, dotterel-old-proper-nouns.dict
   dotterel-punctuation.dict, dotterel-old-punctuation.dict
-  dotterel-affixes.dict, -commands, -fingerspelling, -numbers
+  dotterel-affixes.dict
+  dotterel-commands.dict, dotterel-old-commands.dict
+  dotterel-fingerspelling.dict, dotterel-numbers.dict
 data/
   uk_to_us.txt              UK <tab> US spelling, for #SU
   word-homes.txt            which dictionary a word belongs in
