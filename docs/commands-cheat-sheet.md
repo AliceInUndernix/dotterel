@@ -150,12 +150,11 @@ Dotterel writes **typographic punctuation**: curly quotes “ ” ‘ ’, the a
 | `!?` | `TPH-FBG` | attach left, capital next |
 | `‽` | `TRAPBG` | attach left, capital next |
 | `:` colon | `#TPH-FPLT` | attach left |
-| `;` semicolon | `STPH-FPLT` | attach left |
+| `;` semicolon | `#TPH*FPLT` | attach left |
 | `…` ellipsis, ending | `SKW-BGS` | attach left, capital next |
 | `…` ellipsis, inside | `SW-BS` | attach left |
-| `s?` | `STPH-S` | adds `s` to the last word, then `?` |
 | `.` decimal point | `P-P` | attach both (3.5) |
-| `:` in times | `KHR-PB` | attach both (10:30) |
+| `:` in times | `STPH-FPLT` | attach both (10:30) |
 
 ### Quotes
 
@@ -233,7 +232,6 @@ Every opening stroke writes an opening curly quote, every closing stroke a closi
 | `°` | `TK*ERG` | attach both |
 | `™` | `TR*PL` | attach left |
 | `Δ` | `TKO*EULT` | attach right |
-| `Ω` | `O*EPL` | attach left |
 
 ---
 

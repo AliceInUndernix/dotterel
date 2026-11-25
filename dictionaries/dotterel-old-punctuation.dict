@@ -3,7 +3,6 @@
 {~|'^}	#KR-RG
 {^~|"}	#KW*GS
 {~|"^}	#KW-GS
-{:}	#TPH-FPLT STPH-FPLT
 =undo	*
 {:stitch:E}	*ERBGS
 {:stitch:I}	*EURBGS
@@ -36,7 +35,6 @@
 {:stitch:L}	HR*RBGS
 {:stitch:l}	HR-RBGS
 {:stitch:K}	K*RBGS
-{^}:{^}	KHR-PB
 {:stitch:k}	K-RBGS
 {^}^{^}	KA*RT
 {^}`	KH*FG
@@ -57,7 +55,6 @@
 {,} “ {^}{-|}	KWR-BGS
 {,} {~|“^}	KWR-GS
 @{^}	KWRA*T
-{^}Ω	O*EPL
 {:stitch:O}	O*RBGS
 {^}/{^}	OEU
 {:stitch:o}	ORBGS
@@ -84,7 +81,6 @@
 {:stitch:j}	SKWR-RBGS
 {:stitch:V}	SR*RBGS
 {:stitch:v}	SR-RBGS
-{^s}{?}	STPH-S
 {:stitch:Z}	STKPW*RBGS
 {:stitch:z}	STKPW-RBGS
 {^)}	STPH*FPLTS
