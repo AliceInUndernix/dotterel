@@ -3,7 +3,8 @@
 {?}	KW-PL
 {!}	TP-BG
 {:}	#TPH-FPLT
-{;}	STPH-FPLT
+{;}	#TPH*FPLT
+{^}:{^}	STPH-FPLT
 {~|‘^}	PH-FP
 {^~|’}	PH*FP
 {~|“^}	TPH-FPL

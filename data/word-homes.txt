@@ -56864,7 +56864,6 @@ zymose	base	-
 {^ston}	affixes	-
 {^st}	affixes	-
 {^s}	affixes	-
-{^s}{?}	punctuation	-
 {^s’}	affixes	-
 {^th}	affixes	-
 {^tial}	affixes	-
@@ -56935,7 +56934,6 @@ zymose	base	-
 {^}{-|}	commands	-
 {^}°	punctuation	-
 {^}°{^}	punctuation	-
-{^}Ω	punctuation	-
 {^}–{^}	punctuation	-
 {^}—{^}	punctuation	-
 {^}’d	base	-
