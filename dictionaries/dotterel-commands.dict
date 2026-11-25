@@ -5,9 +5,9 @@
 {*}	#*
 {}	SKWR TKAO*
 {}{:case:cap_first_word}	SKWR-F KPA
-{:case:upper_first_word}	SKWR-FP KPAO
+{:case:upper_first_word}	KPAO
 {^}{<}	KPAO*
-{:retro_case:upper_first_word}	SKWR-FPD KPAO*D
+{:retro_case:upper_first_word}	KPAO*D
 {:retro_case:cap_first_word}	SKWR-FD KA*PD
 {:case:lower_first_char}	SKWR-R HRO*ER
 {:retro_case:lower_first_char}	SKWR-RD HRO*ERD
@@ -45,7 +45,6 @@
 {MODE:RESET}	R*EFT
 {^\n}{^}{-|}	R*R
 {^~|\n^}	R-R
-{*<}	*UPD
 {:retro_us}	#SU
 {#Left}{^}	#TPH-F STPH-F
 {#Shift_l(Left)}{^}	#TPH*F STPH*F
