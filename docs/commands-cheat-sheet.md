@@ -137,7 +137,7 @@ Symbols with no stroke of their own (`$ + = * |` and so on) can be typed as Shif
 
 "Attach" means no space on that side. Marks that end a sentence capitalise the next word.
 
-Dotterel writes **typographic punctuation**: curly quotes “ ” ‘ ’, the apostrophe ’ in every word (don’t, it’s, o’clock, O’Neal), the ellipsis …, and dashes with no spaces (word—word, 1850–1899). No stroke writes a straight `'` or `"` in prose: the straight ones that code and the shell need have their own strokes, `#` + the quote stroke (and the backtick, always straight). A straight quote you type into the Builder, Quick add or the outline table is saved typographic.
+Dotterel writes **typographic punctuation**: curly quotes “ ” ‘ ’, the apostrophe ’ in every word (don’t, it’s, o’clock, O’Neal), the ellipsis …, and dashes with no spaces (word—word, 1850–1899). No stroke writes a straight `'` or `"` in prose: the straight ones that code and the shell need have their own strokes (below), and so does the backtick, which is always straight. A straight quote you type into the Builder, Quick add or the outline table is saved typographic.
 
 ### Sentence marks
 
@@ -145,17 +145,17 @@ Dotterel writes **typographic punctuation**: curly quotes “ ” ‘ ’, the a
 |---|---|---|
 | `.` full stop | `TP-PL` | attach left, capital next |
 | `,` comma | `KW-BG` | attach left |
-| `?` | `KW-PL` | attach left, capital next (also `H-F`) |
+| `?` | `KW-PL` | attach left, capital next |
 | `!` | `TP-BG` | attach left, capital next |
 | `!?` | `TPH-FBG` | attach left, capital next |
-| `‽` | `TRAPBG` | attach left, capital next (also `TRAEPBG`) |
-| `:` colon | `STPH-FPLT` | attach left (also `#TPH-FPLT`) |
-| `;` semicolon | `STPH*FPLT` | attach left (also `STPH*FPL`, `#TPH*FPLT`) |
+| `‽` | `TRAPBG` | attach left, capital next |
+| `:` colon | `#TPH-FPLT` | attach left |
+| `;` semicolon | `STPH-FPLT` | attach left |
 | `…` ellipsis, ending | `SKW-BGS` | attach left, capital next |
 | `…` ellipsis, inside | `SW-BS` | attach left |
-| `s?` | `STPH-S` | adds `s` to the last word, then `?` (also `STH-S`) |
+| `s?` | `STPH-S` | adds `s` to the last word, then `?` |
 | `.` decimal point | `P-P` | attach both (3.5) |
-| `:` in times | `KHR-PB` | attach both (10:30) (also `K-L`) |
+| `:` in times | `KHR-PB` | attach both (10:30) |
 
 ### Quotes
 
@@ -163,10 +163,10 @@ Every opening stroke writes an opening curly quote, every closing stroke a closi
 
 | Mark | Stroke | Spacing |
 |---|---|---|
-| `“` open double | `KW-GS` | attach right |
-| `”` close double | `KW*GS` | attach left |
-| `‘` open single | `KR-RG` | attach right |
-| `’` close single, or an apostrophe | `KR*RG` | attach left |
+| `“` open double | `TPH-FPL` | attach right |
+| `”` close double | `TPH*FPL` | attach left |
+| `‘` open single | `PH-FP` | attach right |
+| `’` close single, or an apostrophe | `PH*FP` | attach left |
 | `, “` comma, then open double | `KWR-GS` | |
 | `, ‘` comma, then open single | `KWR*GS` | |
 | `“` open double, capital next | `KW-BGS` | spaced before |
@@ -195,7 +195,7 @@ Every opening stroke writes an opening curly quote, every closing stroke a closi
 
 | Mark | Open | Close |
 |---|---|---|
-| `( )` | `PREPB` | `PR*EPB` |
+| `( )` | `TPR-RPL` | `TPR*RPL` |
 | `( )` (other stroke) | `STPH-FPLTS` | `STPH*FPLTS` |
 | `[ ]` | `PWR-BGT` | `PWR*BGT` |
 | `{ }` | `TPR-BGT` | `TPR*BGT` |
@@ -205,15 +205,15 @@ Every opening stroke writes an opening curly quote, every closing stroke a closi
 
 | Mark | Stroke | Spacing |
 |---|---|---|
-| `-` hyphen | `H-PB` | attach both (well-known) |
+| `-` hyphen | `#T-LT` | attach both (well-known) |
 | `-` hyphen, spaced | `H*PB` | |
 | `-` hyphen, prefix | `H-PBS` | attach right (-ish) |
 | `--` | `H-PBSZ` | attach both |
 | `--` spaced | `H*PBZ` | |
 | `--` prefix | `H-PBZ` | attach right |
-| `–` en dash | `TPH-RB` | attach both (1850–1899) |
+| `–` en dash | `#TPH-FPLTD` | attach both (1850–1899) |
 | `–` en dash, spaced | `TPH*RB` | |
-| `—` em dash | `PH-RB` | attach both (word—word) |
+| `—` em dash | `#TP-PLT` | attach both (word—word) |
 | `—` em dash, spaced | `PH*RB` | |
 | `/` | `OEU` | attach both |
 | `_` | `RUPBD` | attach both |
@@ -233,7 +233,7 @@ Every opening stroke writes an opening curly quote, every closing stroke a closi
 | `°` | `TK*ERG` | attach both |
 | `™` | `TR*PL` | attach left |
 | `Δ` | `TKO*EULT` | attach right |
-| `Ω` | `O*EPL` | attach left (also `O*EPLS`) |
+| `Ω` | `O*EPL` | attach left |
 
 ---
 
