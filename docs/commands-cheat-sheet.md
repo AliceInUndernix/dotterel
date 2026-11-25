@@ -148,7 +148,6 @@ Dotterel writes **typographic punctuation**: curly quotes “ ” ‘ ’, the a
 | `?` | `KW-PL` | attach left, capital next |
 | `!` | `TP-BG` | attach left, capital next |
 | `!?` | `TPH-FBG` | attach left, capital next |
-| `‽` | `TRAPBG` | attach left, capital next |
 | `:` colon | `#TPH-FPLT` | attach left |
 | `;` semicolon | `#TPH*FPLT` | attach left |
 | `…` ellipsis, ending | `SKW-BGS` | attach left, capital next |

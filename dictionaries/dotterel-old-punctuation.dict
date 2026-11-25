@@ -105,7 +105,6 @@
 {^}\\}	TPR*BGT
 \\{{^}	TPR-BGT
 {^™}	TR*PL
-{^}‽{-|}	TRAPBG
 {:stitch:u}	URBGS
 {:stitch:W}	W*RBGS
 {:stitch:w}	W-RBGS
