@@ -110,9 +110,9 @@ Symbols with no stroke of their own (`$ + = * |` and so on) can be typed as Shif
 | Capitalise next word | `KPA` | `SKWR-F` |
 | Capitalise next word, no space before it | `KPA*` | |
 | Capitalise last word (retro) | `KA*PD` | `KPA*D`, `SKWR-FD` |
-| ALL CAPS next word | `KPAO` | `SKWR-FP` |
+| ALL CAPS next word | `KPAO` | |
 | ALL CAPS next word, no space before it | `KPAO*` | |
-| ALL CAPS last word (retro) | `KPAO*D` | `SKWR-FPD`, `*UPD` |
+| ALL CAPS last word (retro) | `KPAO*D` | |
 | Lower-case next word's first letter | `HRO*ER` | `SKWR-R` |
 | Lower-case last word's first letter (retro) | `HRO*ERD` | `SKWR-RD` |
 | Caps mode (everything in capitals) on | `KA*PS` | turn off with `R*EFT` |
