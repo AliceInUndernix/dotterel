@@ -19,7 +19,7 @@ X. The dictionaries are plain text.
 
 ## What is in it
 
-- 113,816 word outlines, 602 prefixes and suffixes, 15,787 proper
+- 113,741 word outlines, 590 prefixes and suffixes, 15,782 proper
   nouns, punctuation, numbers, commands and fingerspelling. Movement,
   modifier keys and raw mode are built into steno itself.
 - British by default, American on demand: `#SU` switches the last
